@@ -1,0 +1,113 @@
+body {
+    background-color: rgb(205, 250, 178);
+}
+
+#nanbar ul {
+    display: none;
+    background-color: chartreuse;
+    position: absolute;
+    top: 100%;
+}
+
+#navbar li:hover ul {
+    display: none;
+}
+
+#navbar, #navbar ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+#navbar {
+    height: 100px;
+    background-color: #99ec8e;
+    padding-left: 18%;
+    min-width: 600px;
+    border-radius: 100px;
+}
+
+#navbar li {
+    float: left;
+    position: relative;
+    height: 100%;
+}
+
+#navbar li a {
+    display: block;
+    padding: 50px;
+    width: 100px;
+    text-decoration: none;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 22px;
+    letter-spacing: 1px;
+    word-spacing: 1px;
+    color: rgb(28, 31, 31);
+    font-weight: bold;
+    font-variant: normal;
+    font-style: normal;
+    text-transform: none;
+}
+
+#navbar li:hover {
+    background-color:  chartreuse;
+}
+
+#navbar ul li:hover {
+    background-color: #666;
+}
+
+.text {
+    padding: 100px 0 px 100 px 0 px;
+    text-align: center;
+    width: 800px;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    font-weight: normal;
+    text-decoration: none;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: rgb(51, 32, 32);
+    text-decoration: none;
+}
+.photo {
+    padding: 100px 0 px 100 px 0 px;
+    text-align: center;
+    width: 1500px;
+    margin: auto;
+}
+
+table {
+    margin-left: 43%;
+    width: 10%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    height: auto;
+}
+
+table td, table th {
+    padding: 3px;
+    width: 30px;
+    height: 35px;
+}
+
+.cont {
+    text-align: center;
+    padding: 100px 0px 100px 0 px;
+    width: 1500;
+    margin: auto;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(51, 32, 32);
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+    font-size: xx-large;
+}
+ footer {
+    text-align: center;
+ }
